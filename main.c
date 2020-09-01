@@ -8,5 +8,5 @@ int main(void) {
   char *temp = (readline("Enter temperature in celsius: "));
   double dblTemp = strtod(temp, NULL);
   double convert = ((dblTemp * 1.8) + 32);
-  
+  printf("%f° in Celsius is equivalent to %f° Fahrenheit.\n",dblTemp,convert);
 }
